@@ -17,9 +17,9 @@ public class Encapsulamiento {
     public static void main(String[] args) {
         User user1 = new User("josias@gmail.com", "Josias", 1945, 19);
 
-        System.out.println(user1.email); // --> josias@gmail.com
-        System.out.println(user1.name); // --> Josias
-        // System.out.println(user1.id); error
+        System.out.println(user1.email); // -> josias@gmail.com
+        System.out.println(user1.name); // -> Josias
+        // System.out.println(user1.id); --> error
         // ^ no se puede acceder porque id es private
         // para acceder a id usamos el metodo getId()
         System.out.println(user1.getId()); // --> 1945
