@@ -1,3 +1,5 @@
+package Basicos;
+
 public class VariblesYConstantes {
     public static void main(String[] args) {
 
